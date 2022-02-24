@@ -1,0 +1,21 @@
+.sideNav{
+    width: 200px;
+    background-color: #011627;
+    position: absolute;
+    height: 100%;
+    padding: 0 30px;
+    transition: all 1s;
+}
+
+
+ul li a{
+    font-size: 16px;
+    padding: 5px 15px;
+    display: block;
+}
+
+ul li a.active{
+    background-color: #172b4d;
+    padding: 15px 15px;
+
+}
